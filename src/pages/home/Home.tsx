@@ -1,5 +1,5 @@
-import { SelectedPage } from "../../shared/types";
-import ActionButton from "../../shared/ActionButton";
+import { SelectedPage } from "../../helper/types";
+import ActionButton from "../../helper/ActionButton";
 import HomePageText from "../../assets/HomePageText.png";
 import HomePageGraphic from "../../assets/HomePageGraphic.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";

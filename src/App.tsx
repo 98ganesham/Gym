@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import Navbar from "./scenes/navbar";
-import { SelectedPage } from "./shared/types";
-import Home from "./scenes/home/Home";
-import Benefits from "./scenes/benenfits/index";
-import OurClasses from "./scenes/ourclasses/index";
-import ContactUs from "./scenes/contactUs/Contact";
-import Login from "./scenes/login/Login";
+import Navbar from "./pages/navbar";
+import { SelectedPage } from "./helper/types";
+import Home from "./pages/home/Home";
+import Benefits from "./pages/benenfits/index";
+import OurClasses from "./pages/ourclasses/index";
+import ContactUs from "./pages/contactUs/Contact";
+import Login from "./pages/login/Login";
 
 
 

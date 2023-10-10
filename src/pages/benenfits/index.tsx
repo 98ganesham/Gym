@@ -1,5 +1,5 @@
-import ActionButton from "../../shared/ActionButton";
-import HText from "../../shared/HText";
+import ActionButton from "../../helper/ActionButton";
+import HText from "../../helper/HText";
 
 import {
   HomeModernIcon,
@@ -9,7 +9,7 @@ import {
 import { motion } from "framer-motion";
 import BenefitsPageGraphic from "../../assets/BenefitsPageGraphic.png";
 import Benefit from "../benenfits/Benefits";
-import { SelectedPage, BenefitType } from "../../shared/types";
+import { SelectedPage, BenefitType } from "../../helper/types";
 
 const benefits: Array<BenefitType> = [
   {

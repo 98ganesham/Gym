@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
-import { SelectedPage } from "../../shared/types";
+import { SelectedPage } from "../../helper/types";
 import { useForm } from "react-hook-form";
-import HText from "../../shared/HText";
+import HText from "../../helper/HText";
 import ContactUsPageGraphic from "../../assets/ContactUsPageGraphic.png"
 import Footer from "../footer/Footer";
 
@@ -55,7 +55,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           </p>
         </motion.div>
 
-       
+
         <div className="mt-10 justify-between gap-8 md:flex">
           <motion.div
             className="mt-10 basis-3/5 md:mt-0"
@@ -148,7 +148,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, y: 0 },
             }}
           >
-            <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
+            <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-empowertext">
               <img
                 className="w-full"
                 alt="contact-us-page-graphic"
