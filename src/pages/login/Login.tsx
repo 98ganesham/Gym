@@ -10,13 +10,9 @@ type Props = {
 };
 
 function Login({ setSelectedPage }: Props) {
-    const inputStyles = `mb-5 w-full rounded-lg bg-gray-50
-    px-2 py-2 placeholder-white text-white `;
 
     const {
-        register,
         trigger,
-        formState: { errors },
     } = useForm();
 
     const onSubmit = async (e: any) => {
