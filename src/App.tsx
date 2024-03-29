@@ -7,13 +7,6 @@ import OurClasses from "./pages/ourclasses/index";
 import ContactUs from "./pages/contactUs/Contact";
 import Login from "./pages/login/Login";
 
-
-
-
-
-
-
-
 function App() {
 
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
