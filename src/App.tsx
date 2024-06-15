@@ -6,6 +6,7 @@ import Benefits from "./pages/benenfits/index";
 import OurClasses from "./pages/ourclasses/index";
 import ContactUs from "./pages/contactUs/Contact";
 import Login from "./pages/login/Login";
+import Footer from "./pages/footer/Footer";
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
         <OurClasses setSelectedPage={setSelectedPage} />
         <ContactUs setSelectedPage={setSelectedPage} />
         <Login setSelectedPage={setSelectedPage} />
+        
 
       </div>
 

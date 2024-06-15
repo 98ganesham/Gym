@@ -49,9 +49,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-gray-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+          Start Your Journey to a Healthier You Today – Join Now and Shape Your Body for a Brighter Tomorrow!
           </p>
         </motion.div>
 
@@ -156,7 +154,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               />
             </div>
           </motion.div>
-          <Footer />
+         
         </div>
       </motion.div>
     </section>
