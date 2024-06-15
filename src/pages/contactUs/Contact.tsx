@@ -4,7 +4,7 @@ import { SelectedPage } from "../../helper/types";
 import { useForm } from "react-hook-form";
 import HText from "../../helper/HText";
 import ContactUsPageGraphic from "../../assets/ContactUsPageGraphic.png"
-import Footer from "../footer/Footer";
+
 
 
 type Props = {
